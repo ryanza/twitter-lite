@@ -201,7 +201,7 @@ class Twitter {
    */
   _makeRequest(method, resource, parameters) {
     const requestData = {
-      url: `${this.url}/${resource}.json`,
+      url: `${this.url}/${resource}`,
       method,
     };
     if (parameters)
